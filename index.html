@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="framework/bootstrap/css/bootstrap.min.css">
+    <title>Quiz 2</title>
+</head>
+<body>
+    <div class="container pt-5">
+        <div class="card">
+            <div class="card-header bg-primary">
+                <h4 class="text-white mb-0">Converter Suhu</h4>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="form-group mt-2">
+                        <label for="celcius">Celcius</label>
+                        <input type="text" class="form-control bg-white" name="celcius" id="celcius" required>
+                    </div>
+                    <div class="form-group mt-2">
+                        <label for="fahrenheit">Fahrenheit</label>
+                        <input type="text" class="form-control bg-white" name="fahrenheit" id="fahrenheit" required>
+                    </div>
+                    <div class="form-group mt-2">
+                        <label for="kelvin">Kelvin</label>
+                        <input type="text" class="form-control bg-white" name="kelvin" id="kelvin" required>
+                    </div>
+                    <input type="button" class="btn btn-secondary w-50 mt-2 d-block mx-auto" value="Reset" onclick="reset()">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="framework/jquery/js/jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</html>
